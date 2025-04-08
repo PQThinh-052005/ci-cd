@@ -10,7 +10,7 @@ public class TestCaculator {
     @Test
     public void testSum(){
         Caculator caculator = new Caculator();
-        Assert.assertEquals(caculator.sum(1, 2), 3);
+        Assert.assertEquals(caculator.sum(2, 2), 4);
     }
 
     @Test
